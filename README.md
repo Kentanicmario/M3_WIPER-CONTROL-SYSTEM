@@ -9,6 +9,8 @@
 
 [![Build-Linux CI](https://github.com/Kentanicmario/M3_WIPER-CONTROL-SYSTEM/actions/workflows/Build%20on%20linux.yml/badge.svg)](https://github.com/Kentanicmario/M3_WIPER-CONTROL-SYSTEM/actions/workflows/Build%20on%20linux.yml)
 
+[![Cppcheck Analysis](https://github.com/Kentanicmario/M3_WIPER-CONTROL-SYSTEM/actions/workflows/cppcheck%20analysis.yml/badge.svg)](https://github.com/Kentanicmario/M3_WIPER-CONTROL-SYSTEM/actions/workflows/cppcheck%20analysis.yml)
+
 
 ## INTRODUCTION
 
