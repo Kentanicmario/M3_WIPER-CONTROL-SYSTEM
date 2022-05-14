@@ -16,7 +16,10 @@ The wiper control system is used to detect rainfall and activate automobile rain
 
 ![a82a862dbbcd4b8a98dcc7d46168f6b5](https://user-images.githubusercontent.com/101172144/168336241-f4e25a73-0040-400a-af19-ac1f957c448c.svg)
 
+### BUILD LINUX
 
 [![Build-Linux CI](https://github.com/Kentanicmario/M3_WIPER-CONTROL-SYSTEM/actions/workflows/Build%20on%20linux.yml/badge.svg)](https://github.com/Kentanicmario/M3_WIPER-CONTROL-SYSTEM/actions/workflows/Build%20on%20linux.yml)
+
+### CPP CHECK
 
 [![Cppcheck Analysis](https://github.com/Kentanicmario/M3_WIPER-CONTROL-SYSTEM/actions/workflows/cppcheck%20analysis.yml/badge.svg)](https://github.com/Kentanicmario/M3_WIPER-CONTROL-SYSTEM/actions/workflows/cppcheck%20analysis.yml)
