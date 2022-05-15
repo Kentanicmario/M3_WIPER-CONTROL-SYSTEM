@@ -30,18 +30,20 @@ This method is useful particularly during raining seasons.
 This method can be deployed in cars and other vehicles.
 ### HOW
 This program can be executed in a system which has linux or windows operating system.
-## HIGH LEVEL REQUIREMENT
-| ID   |                 DESCRIPTION                           | CATEGORY  | STATUS      |
-| :--- |     :---:                                             |      ---: |  ---:       |            
-| HR01 | ACC mode of car                                       | Technical | IMPLEMENTED |             
-| HR02 | Ignition mode of car                                  | Technical | IMPLEMENTED |         
-| HR03 | Wiper - Turned ON                                     | Technical | IMPLEMENTED |
-| HR04 | Wiper - Turned OFF                                    | Technical | IMPLEMENTED |
-## LOW LEVEL REQUIREMENT
-| ID   |                    DESCRIPTION                                                                                              | Status(Implemented/Future) |
-| :--- |                   :---:                                                                                                     |                       ---: |
-| LR01 | User must be able to press button once in the time interval of two seconds to glow red LED.                                 |  IMPLEMENTED               |   
-| LR02 | User must be able to press button one more time to turn off red LED.                                                        |  IMPLEMENTED               |  
-| LR03 | User must be able to press button two times to turn on green, orange, blue LED.                                             |  IMPLEMENTED               |  
-| LR04 | User must be able to press button one more time for two seconds to turn off green, orange, blue LED.                        |  IMPLEMENTED               |
+## High Level Requirements
+| Test ID | Description | Exp.i/p | Exp.o/p | Actual o/p | STATUS |
+| --------|:------------|:--------|:--------|:-----------|:-------------|
+| 1 | User must check the BUTTTON is pressed  | execution of program | Microcontroller starts | RED LED ON| PASS |
+| 2 | User must check the BUTTTON is pressed  | execution of program | WIPER is ON| BLUE LED ON| PASS |
+| 3 | User must check the BUTTTON is pressed  | execution of program | WIPER is ON | GREEN LED ON| PASS |
+| 4 | User must check the BUTTTON is pressed  | execution of program | WIPER is ON | ORANGE LED ON| PASS |
+| 5 | User must check the BUTTTON is pressed  | execution of program | Microcontroller stops | LED OFF| PASS |
 
+## Low Level Requirements
+| Test ID | Description | Exp.i/p | Exp.o/p | Actual o/p | STATUS |
+| --------|:------------|:--------|:--------|:-----------|:-------------|
+| 1 | User must be able to check the BUTTTON is pressed for two seconds | execution of program | Microcontroller starts | RED LED ON| PASS |
+| 2 | User must be able to check the BUTTTON is pressed  | execution of program | WIPER starts and speed is slow | BLUE LED ON| PASS |
+| 3 | User must be able to check the BUTTTON is pressed  | execution of program | WIPER starts and speed is moderate | GREEN LED ON| PASS |
+| 4 | User must be able to check the BUTTTON is pressed  | execution of program | WIPER starts and speed is fast | ORANGE LED ON| PASS |
+| 5 | User must be able to check the BUTTTON is pressed again for two seconds | execution of program | Microcontroller stops | LED OFF| PASS |
