@@ -10,10 +10,9 @@ The wiper control system is used to detect rainfall and activate automobile rain
 
 ## OBJECTIVES
 
-*	When the button is pressed ONCE, ACC mode will be turned on.
-*	When the button is pressed TWICE, Ignition mode will be turned on.
-*	When the button is pressed THREE times, wiper will be turned on.
-*	When the button is pressed FOUR times, wiper will be turned off.
+*	When the button is pressed for two seconds, Microcontroller will be turned on.
+*	When the button is pressed TWICE, Wiper will be turned on.
+*	When the button is pressed again for two seconds, Microcontroller will be turned off.
 
 ## SWOT ANALYSIS
 
