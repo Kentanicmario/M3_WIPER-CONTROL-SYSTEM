@@ -1,31 +1,21 @@
 
-
 #define GPIOD_BASE_ADDR 0x40020C00
 #define GPIOD_ODR_OFFSET 0x14
 #define GPIOD_ODR *(volatile long *)(GPIOD_BASE_ADDR + GPIOD_ODR_OFFSET)
-
-
 
 #define RCC_BASE_ADDR 0x40023800
 #define RCC_AHB1ENR_OFFSET 0x30
 #define RCC_AHB1ENR *(volatile long *)(RCC_BASE_ADDR + RCC_AHB1ENR_OFFSET)
 
-
-
 #define GPIOA_BASE_ADDR 0x40020000
 #define GPIOA_IDR_OFFSET 0x10
 #define GPIOA_IDR *(volatile long *)(GPIOA_BASE_ADDR + GPIOA_IDR_OFFSET)
 
-
-
 #define GPIOD_MODE_OFFSET 0x00
 #define GPIOD_MODE *(volatile long *)(GPIOD_BASE_ADDR + GPIOD_MODE_OFFSET)
 
-
-
 #define GPIOA_MODE_OFFSET 0x00
 #define GPIOA_MODE *(volatile long *)(GPIOA_BASE_ADDR + GPIOA_MODE_OFFSET)
-
 
 int main()
 {
