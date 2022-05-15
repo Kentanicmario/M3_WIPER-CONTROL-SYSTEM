@@ -3,10 +3,9 @@
 
 The wiper control system is used to detect rainfall and activate automobile rain wiper automatically by using buttons without driver interaction. The distraction eliminated with the development of this product is the manual adjustment of windshield wipers when driving in precipitation. The few seconds that a driver takes their attention off the road to adjust a knob while driving in poor weather conditions could potentially lead to car accidents.Most of cars have two wipers on the windscreen, one on the rear window and the other on each headlight. The wiper parts visible from outside the car are the rubber blade, the wiper arm holding the blade, a spring linkage, and parts of the wiper pivots. The wiper itself has about six parts called pressure points or claws that are small arms under the wiper.
 ## OBJECTIVES
-*	When the button is pressed ONCE, ACC mode will be turned on.
-*	When the button is pressed TWICE, Ignition mode will be turned on.
-*	When the button is pressed THREE times, wiper will be turned on.
-*	When the button is pressed FOUR times, wiper will be turned off.
+*	When the button is pressed for two seconds, Microcontroller will be turned on.
+*	When the button is pressed TWICE, Wiper will be turned on.
+*	When the button is pressed again for two seconds, Microcontroller will be turned off.
 ## SWOT ANALYSIS
 ### STRENGTH
 * This project helps to find raindrops and clears it automatically without driver interaction.
