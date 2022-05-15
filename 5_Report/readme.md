@@ -58,21 +58,5 @@ This method can be deployed in cars and other vehicles.
 
 This program can be executed in a system which has linux or windows operating system.
 
-## HIGH LEVEL REQUIREMENT
 
-| ID   |                 DESCRIPTION                           | CATEGORY  | STATUS      |
-| :--- |     :---:                                             |      ---: |  ---:       |            
-| HR01 | ACC mode of car                                       | Technical | IMPLEMENTED |             
-| HR02 | Ignition mode of car                                  | Technical | IMPLEMENTED |         
-| HR03 | Wiper - Turned ON                                     | Technical | IMPLEMENTED |
-| HR04 | Wiper - Turned OFF                                    | Technical | IMPLEMENTED |
-
-## LOW LEVEL REQUIREMENT
-
-| ID   |                    DESCRIPTION                                                                                              | Status(Implemented/Future) |
-| :--- |                   :---:                                                                                                     |                       ---: |
-| LR01 | User must be able to press button once in the time interval of two seconds to glow red LED.                                 |  IMPLEMENTED               |   
-| LR02 | User must be able to press button one more time to turn off red LED.                                                        |  IMPLEMENTED               |  
-| LR03 | User must be able to press button two times to turn on green, orange, blue LED.                                             |  IMPLEMENTED               |  
-| LR04 | User must be able to press button one more time for two seconds to turn off green, orange, blue LED.                        |  IMPLEMENTED               |
 
